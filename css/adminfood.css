@@ -1,0 +1,98 @@
+/* adminfood.css */
+
+/* Mengatur tampilan wrapper */
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  /* Mengatur tampilan judul h1 */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Mengatur tampilan button tambah makanan */
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+  }
+  
+  /* Mengatur tampilan tabel */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  table td img {
+    width: 100px;
+  }
+  
+  /* Mengatur tampilan tombol update dan delete */
+  .btn-secondary,
+  .btn-danger {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-secondary:hover,
+  .btn-danger:hover {
+    background-color: #23527c;
+  }
+  
+  /* Mengatur tampilan pesan error */
+  .error {
+    color: #e74c3c;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* footer.css */
+  
+  /* Mengatur tampilan footer */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+  

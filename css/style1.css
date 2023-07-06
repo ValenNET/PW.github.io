@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    background-image: url("../images/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* or background-size: contain; */
+    background-position: center center;
+    font-size: 10px;    
+  }
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.innerbox {
+ position: relative;
+ width: 450px;
+ padding: 40px;
+ min-height: 480px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: white;
+ border-radius: 10px;
+ box-shadow: 0px 2px 10px 0px rgba(58, 53, 65, 0.1);
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.rg-form {
+    display: none;
+}
+.form h2{
+color: black;
+font-weight: 800;
+font-size: 22px;
+}
+.form .inputBx {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+.form .inputBx .btn-primary{
+    background-color: #c0512c;
+    font-weight:700;
+    color: white;
+    text-align: center;
+}
+
+.form .inputBx .btn-secondary{
+    background-color: #ff4757;
+    font-weight:700;
+    color: white;
+    text-align: center;
+}
+.form .inputBx input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding-left: 20px;
+    font-size: 14px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+    border: 1px solid #ddd;
+    border-radius: 55px;
+    height: 55px;
+
+}
+
+.form .inputBx .password-control {
+    position: absolute;
+    top:8px;
+    right: 15px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../image/eye-open.png) white;
+    transition: 0.5s;
+    padding: 16px;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}
+.form .inputBx .view {
+    background:url(../image/eye-close.png) white;
+    transition: 0.5s;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.form .inputBx .input[type=submit] {
+    background: #9155fd;
+    width: 100%;
+    box-shadow: none;
+    letter-spacing: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 1.5s;
+    height:50px;
+    font-weight: 600;
+}
+
+.form .inputBx .input[type=submit]:hover{
+background: #804bdf;
+transition: 0.5s;
+}
+.form .inputBx input::placeholder{color: white;}
+.form .inputBx span {
+    position: absolute;
+    left: 0px;
+    padding:16px ;
+    display: inline-block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.form .inputBx input:focus ~ span,
+.form .inputBx input:valid ~ span{
+    transform: translateX(15px) translateY(-12px);
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #9155fd;
+    background-color: white;
+    padding: 2px 10px;
+    transition: 0.5s ease-in-out;
+
+
+}
+input[type=text]:focus, input[type=password]:focus{
+    border: 2px solid #9155fd;
+}
+input[type='checkbox'] {
+    accent-color: #9155fd;
+    zoom:1.5;
+    vertical-align: text-bottom;
+
+}
+
+.form p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.p1 {text-align:center;}
+.form p a{ color: #fdba55; text-decoration: none;}
+.or {text-align: center; position: relative;}
+.or span::after{
+    content: "";
+    position: absolute;
+    width: 45%;
+    background: rgba(58, 53, 65, 0.12);
+    height: 1px;
+    top: 14px;
+    right: 0px;
+    
+
+}
+.or span::before{
+    content: "";
+    position: absolute;
+    width: 45%;
+    background: rgba(58, 53, 65, 0.12);
+    height: 1px;
+    top: 14px;
+    left: 0px;
+
+
+}
+.social-img{
+    text-align: center;
+}
+.social-img img{
+    width: 35px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    
+}
+
+.header img {
+    width: 100%;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.success{
+    color: #2ed573;
+    padding-bottom: 2%;
+    font-size: 16px;
+    }
+    
+.error{
+    color: #ff4757;
+    padding-bottom: 2%;
+    font-size: 16px;
+}
+
+.form .danger {
+    color: #ff4757;
+}

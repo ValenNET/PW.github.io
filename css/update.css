@@ -1,0 +1,75 @@
+/* update.css */
+
+/* Styling for the main content */
+.main-content {
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Styling for the form table */
+.tbl-30 {
+  width: 30%;
+}
+
+.tbl-30 td {
+  padding: 10px;
+}
+
+.tbl-30 input[type="text"],
+.tbl-30 input[type="number"],
+.tbl-30 select,
+.tbl-30 textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.tbl-30 input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.tbl-30 input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styling for success and error messages */
+.success {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.error {
+  color: #f44336;
+  font-weight: bold;
+}
+
+/* Custom styling for the update form */
+.custom-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.custom-box h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.custom-box .btn-secondary {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-box .btn-secondary:hover {
+  background-color: #999;
+  color: #fff;
+}
+

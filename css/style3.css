@@ -1,0 +1,76 @@
+/* Common styles */
+
+
+  
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+  }
+  
+  .btn-secondary {
+    background-color: #4CAF50;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .tbl-full {
+    width: 100%; /* -------------- */
+    border-collapse: collapse;
+  }
+  
+  .tbl-full th,
+  .tbl-full td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styles for the first coding snippet */
+  
+  .error {
+    color: red;
+  }
+  
+  /* Styles for the second coding snippet */
+  
+  .error {
+    color: red;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .tbl-full th,
+    .tbl-full td {
+      font-size: 14px;
+    }
+  }
+
+  .wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  
+  .main-content {
+    padding: 20px;
+    background-color: #ffffff;
+  }
